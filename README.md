@@ -1,6 +1,24 @@
 # Nine Books + Albums
 
-[Contribute and explore](https://thestalwart.com/ninebooks/) · [Open dataset](data/) · [Issues](https://github.com/jnathan9/ninebooks/issues)
+[Contribute and explore](https://thestalwart.com/ninebooks/) · **[Browse the database](data/BROWSE.md)** · [Issues](https://github.com/jnathan9/ninebooks/issues)
+
+## Browse the database
+
+**[Read the complete nine-book and nine-album lists](data/BROWSE.md)** — a readable
+view right here on GitHub, with every nine kept together.
+
+| What you want to see | Open it on GitHub |
+| --- | --- |
+| People's complete lists | [Browse lists](data/BROWSE.md) |
+| Every contributed book | [Books table](data/books.csv) |
+| Every contributed album | [Albums table](data/albums.csv) |
+| Books and albums liked by the same people | [Connections table](data/connections.csv) |
+| The full dataset for your own analysis | [All files and data dictionary](data/README.md) |
+
+GitHub displays the CSV files as tables. The readable view and data files refresh
+with the hourly export. For the latest submissions, use the [live collection](https://thestalwart.com/ninebooks/#lists).
+
+## About the project
 
 Upload an image of nine favorite books or nine favorite albums. Review the model's
 identifications and publish the complete list as open data. Link your book and

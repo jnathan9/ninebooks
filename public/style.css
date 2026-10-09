@@ -1,70 +1,67 @@
-/* A quiet, dark reading surface inspired by haiku.zone. */
+/* Shared visual language with thestalwart.com/meetyourneighbors. */
 :root {
-  --ink: #e7eae3;
-  --green: #dfe7d9;
-  --paper: #080a09;
-  --pale: #131714;
-  --line: #2c322e;
-  --muted: #9ba49e;
-  --accent: #d8e1c7;
-  color-scheme: dark;
+  --ink: #000;
+  --paper: #ddeedd;
+  --pale: #eaf4ea;
+  --line: #9ab89a;
+  --muted: #526052;
+  --accent: #b03000;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e6ece5;
+    --paper: #10160f;
+    --pale: #18211a;
+    --line: #33452f;
+    --muted: #9fb09c;
+    --accent: #ff9166;
+    color-scheme: dark;
+  }
 }
 * {
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1160px;
   background: var(--paper);
   color: var(--ink);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.65;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.5;
   min-height: 100vh;
-}
-body:before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: -1;
-  background:
-    radial-gradient(circle at 8% 19%, #b8c4b566 0 1px, transparent 2px),
-    radial-gradient(circle at 86% 28%, #b8c4b544 0 1px, transparent 2px),
-    radial-gradient(circle at 24% 69%, #b8c4b544 0 1px, transparent 2px),
-    radial-gradient(circle at 73% 84%, #b8c4b544 0 1px, transparent 2px),
-    radial-gradient(circle at 92% 66%, #b8c4b544 0 1px, transparent 2px),
-    radial-gradient(circle at 36% 36%, #b8c4b522 0 1px, transparent 2px);
 }
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 34px;
+  padding: 22px 36px;
   font-size: 12px;
 }
 a {
   color: var(--ink);
   text-underline-offset: 4px;
-  text-decoration-color: #67736b;
+  text-decoration-color: var(--muted);
 }
 a:hover {
-  color: white;
-  text-decoration-color: white;
+  color: var(--accent);
+  text-decoration-color: var(--accent);
 }
 .home {
-  font-size: 25px;
-  font-weight: 500;
-  letter-spacing: -0.07em;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
   text-decoration: none;
 }
 main {
-  max-width: 1000px;
+  max-width: 1160px;
   margin: auto;
   padding: 0 36px 90px;
 }
 .intro {
-  text-align: center;
-  padding: 66px 0 42px;
+  text-align: left;
+  padding: 18px 0 30px;
 }
 .eyebrow {
   font-size: 10px;
@@ -76,37 +73,56 @@ main {
 h1,
 h2,
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   line-height: 1.15;
-  font-weight: 400;
+  font-weight: 700;
 }
 h1 {
-  font-size: 58px;
-  letter-spacing: -0.065em;
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+  letter-spacing: -0.025em;
   margin: 0;
 }
 h2 {
   font-size: 29px;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.025em;
   margin: 0 0 12px;
 }
 h3 {
   font-size: 23px;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.015em;
   margin: 0 0 15px;
 }
 .dek {
-  font-size: 14px;
-  color: var(--muted);
-  margin: 18px 0 0;
+  font-size: 18px;
+  max-width: 740px;
+  color: var(--ink);
+  margin: 12px 0 0;
+}
+.repository-link {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 24px;
+  padding: 11px 18px;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 13px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.repository-link:hover {
+  background: var(--ink);
+  color: var(--paper);
+  opacity: 0.8;
 }
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 32px;
   align-items: center;
+  border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  margin: 0 0 40px;
+  margin: 0 0 30px;
 }
 button,
 input,
@@ -128,8 +144,8 @@ button {
   color: var(--muted);
 }
 .tab.active {
-  color: var(--ink);
-  border-bottom-color: var(--ink);
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 #stats {
   display: none;
@@ -140,15 +156,15 @@ button {
 .section-heading p {
   color: var(--muted);
   margin: 0;
-  font-size: 13px;
+  font-size: 15px;
 }
 #upload-view > .section-heading {
-  max-width: 580px;
-  margin: 0 auto 26px;
+  max-width: 740px;
+  margin: 0 0 22px;
 }
 .upload-options {
-  max-width: 580px;
-  margin: 0 auto 20px;
+  max-width: 680px;
+  margin: 0 0 16px;
   display: flex;
   align-items: center;
   gap: 14px;
@@ -160,7 +176,7 @@ button {
   color: var(--muted);
 }
 select {
-  background: #111511;
+  background: var(--pale);
   border: 1px solid var(--line);
   border-radius: 0;
   padding: 8px 15px;
@@ -171,25 +187,27 @@ select {
   font-size: 11px;
 }
 .upload-layout {
-  max-width: 580px;
-  margin: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 30px;
 }
 .dropzone {
-  min-height: 210px;
-  border: 1px dashed #414b42;
+  min-height: 250px;
+  border: 1px dashed var(--line);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   position: relative;
   gap: 6px;
-  background: #0d110dc9;
+  background: var(--pale);
   cursor: pointer;
 }
 .dropzone:hover,
 .dropzone.over {
-  border-color: #a8b4a3;
-  background: #111810;
+  border-color: var(--accent);
+  background: var(--pale);
 }
 .dropzone:focus-within {
   outline: 2px solid var(--accent);
@@ -213,7 +231,7 @@ select {
 }
 .dropzone small {
   font-size: 10px;
-  color: #89948d;
+  color: var(--muted);
   margin-top: 15px;
 }
 .upload-symbol {
@@ -224,8 +242,9 @@ select {
   margin-bottom: 10px;
 }
 .how {
-  margin-top: 30px;
-  padding-top: 4px;
+  margin-top: 0;
+  padding: 0 0 0 24px;
+  border-left: 1px solid var(--line);
 }
 .how .eyebrow {
   display: none;
@@ -238,13 +257,13 @@ select {
   display: none;
 }
 .how p {
-  font-size: 12px;
+  font-size: 16px;
   color: var(--muted);
   margin: 10px 0;
 }
 .how .fine {
   font-size: 11px;
-  color: #839087;
+  color: var(--muted);
   border-top: 1px solid var(--line);
   padding-top: 18px;
   margin-top: 20px;
@@ -264,15 +283,16 @@ select {
 }
 .primary {
   background: var(--ink);
-  color: #121712;
+  color: var(--paper);
 }
 .primary:hover {
-  background: white;
-  color: black;
+  background: var(--ink);
+  color: var(--paper);
+  opacity: 0.8;
 }
 .secondary {
   background: transparent;
-  border-color: #4b554d;
+  border-color: var(--line);
   color: var(--ink);
 }
 .secondary:hover {
@@ -301,10 +321,10 @@ summary:focus-visible {
 }
 .notice {
   padding: 13px 17px;
-  background: #242119;
-  border: 1px solid #6c6242;
-  color: #e8ddb7;
-  font-size: 13px;
+  background: var(--pale);
+  border: 1px solid var(--accent);
+  color: var(--ink);
+  font-size: 15px;
 }
 .working {
   text-align: center;
@@ -343,7 +363,7 @@ summary:focus-visible {
 .review-top p {
   max-width: 580px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
 }
 .review-grid {
   display: grid;
@@ -354,7 +374,7 @@ summary:focus-visible {
 .review-book {
   padding: 17px;
   border: 1px solid var(--line);
-  background: #0c100c;
+  background: var(--pale);
 }
 .slot {
   display: flex;
@@ -365,7 +385,7 @@ summary:focus-visible {
   margin-bottom: 14px;
 }
 .uncertain {
-  color: #e0ce9a;
+  color: var(--accent);
   padding: 0 5px;
 }
 .review-book label,
@@ -380,7 +400,7 @@ summary:focus-visible {
   display: block;
   width: 100%;
   border: 0;
-  border-bottom: 1px solid #4c574d;
+  border-bottom: 1px solid var(--line);
   background: transparent;
   padding: 9px 0;
   margin: 3px 0 14px;
@@ -407,7 +427,7 @@ summary:focus-visible {
   max-width: 730px;
 }
 .identity-panel label {
-  font-size: 13px;
+  font-size: 15px;
 }
 .identity-panel input[type="password"],
 .pairing-save textarea {
@@ -421,7 +441,7 @@ summary:focus-visible {
 }
 .identity-panel input[type="checkbox"],
 .consent input {
-  accent-color: #c7d5bd;
+  accent-color: var(--accent);
   width: 17px;
   height: 17px;
   vertical-align: middle;
@@ -441,7 +461,7 @@ summary {
 .attribution-choice > label {
   display: block;
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .attribution-choice .subtle {
   max-width: 720px;
@@ -469,7 +489,7 @@ summary {
   margin-top: 3px;
 }
 .pairing-save {
-  border-left: 1px solid #75836f;
+  border-left: 1px solid var(--line);
   padding-left: 17px;
   margin: 25px 0;
 }
@@ -516,7 +536,7 @@ summary {
 .book-table td {
   padding: 16px 0;
   border-bottom: 1px solid var(--line);
-  font-size: 13px;
+  font-size: 15px;
 }
 .book-table th:last-child,
 .book-table td:last-child {
@@ -559,7 +579,7 @@ summary {
   margin: 8px 0;
 }
 .list-card {
-  border-top: 1px solid #687466;
+  border-top: 1px solid var(--line);
   padding-top: 20px;
   margin: 36px 0;
 }
@@ -589,22 +609,22 @@ summary {
   justify-content: space-between;
   min-height: 165px;
   padding: 20px;
-  background: #121812;
-  border: 1px solid #29352b;
+  background: var(--pale);
+  border: 1px solid var(--line);
   text-align: left;
   cursor: pointer;
   border-radius: 0;
 }
 .book-tile:nth-child(3n + 2) {
-  background: #151813;
-  border-color: #33372b;
+  background: var(--pale);
+  border-color: var(--line);
 }
 .book-tile:nth-child(3n) {
-  background: #101718;
-  border-color: #283538;
+  background: var(--pale);
+  border-color: var(--line);
 }
 .book-tile:hover {
-  border-color: #a4b19b;
+  border-color: var(--accent);
 }
 .book-tile .position {
   font-size: 9px;
@@ -615,7 +635,7 @@ summary {
 .book-tile strong {
   font-size: 22px;
   font-weight: 400;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.015em;
   line-height: 1.15;
   overflow-wrap: anywhere;
 }
@@ -632,7 +652,7 @@ summary {
 .connection-heading {
   padding: 10px 0 22px;
   margin: 10px 0 28px;
-  border-bottom: 1px solid #75836f;
+  border-bottom: 1px solid var(--line);
 }
 .connection-heading h2 {
   font-size: 38px;
@@ -675,7 +695,7 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  border-top: 1px solid #1d241e;
+  border-top: 1px solid var(--line);
   font-size: 10px;
   color: var(--muted);
 }
@@ -694,15 +714,15 @@ footer {
     padding: 22px;
   }
   .intro {
-    padding: 42px 0 30px;
+    padding: 12px 0 24px;
   }
   h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
   .dek {
-    font-size: 12px;
-    max-width: 290px;
-    margin: 16px auto 0;
+    font-size: 17px;
+    max-width: 100%;
+    margin: 12px 0 0;
   }
   .intro .eyebrow {
     font-size: 9px;
@@ -713,7 +733,9 @@ footer {
   nav {
     gap: 20px;
     justify-content: flex-start;
-    overflow-x: auto;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 0;
     margin-bottom: 30px;
   }
   .tab {
@@ -726,7 +748,16 @@ footer {
     display: none;
   }
   .dropzone {
-    min-height: 200px;
+    min-height: 220px;
+  }
+  .upload-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .how {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 22px 0 0;
   }
   .data-layout {
     grid-template-columns: 1fr;
@@ -822,3 +853,17 @@ footer {
     animation: none;
   }
 }
+
+/* Small controls and labels use the same plain sans-serif as the reference. */
+header, nav, .eyebrow, .repository-link, .primary, .secondary,
+.upload-options, .kind-filter, .slot, .position, .list-meta,
+.book-table th, footer {
+  font-family: system-ui, sans-serif;
+}
+.eyebrow, .repository-link, .primary, .secondary, .tab.active {
+  font-weight: 700;
+}
+.repository-link { margin-top: 18px; }
+.section-heading p { font-size: 16px; }
+.book-tile .author { font-size: 13px; }
+.identity-panel input[type="password"], .pairing-save textarea { color: var(--ink); }

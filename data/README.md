@@ -1,5 +1,9 @@
 # The open Nine Books + Albums dataset
 
+**[Browse the complete lists](BROWSE.md)** · [Books](books.csv) · [Albums](albums.csv) · [Book–album connections](connections.csv)
+
+Start with the readable list view above, or open a CSV to see a table on GitHub.
+
 **License: [CC0 1.0](LICENSE).** Contributors opt in to public-domain dedication
 of their list data, optional attribution and links between their lists. Code
 outside this directory is MIT licensed.
@@ -10,6 +14,8 @@ hour, subject to scheduling delays. [Live API](https://ninebooks-api.pages.dev/a
 
 | File | Unit |
 | --- | --- |
+| [BROWSE.md](BROWSE.md) | Readable complete lists, newest 100; all lists remain in JSONL |
+| [connections.csv](connections.csv) | Readable book/author and album/artist pairs with shared-contributor counts |
 | `lists.jsonl` | One complete list, with all nine items and contributor ID |
 | `lists.csv` | One list: ID, kind, reader ID, timestamp, optional attribution, model, schema version |
 | `items.csv` | Item ID, kind (`book` or `album`), title, creator |

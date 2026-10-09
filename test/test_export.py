@@ -26,6 +26,28 @@ class ExportTests(unittest.TestCase):
             rows=[json.loads(x) for x in (Path(d)/'lists.jsonl').read_text().splitlines()]
             self.assertEqual(len(rows),4)
             self.assertTrue(all(len(x['items'])==9 for x in rows))
+            with (Path(d)/'connections.csv').open() as f: readable=list(csv.DictReader(f))
+            self.assertEqual(len(readable),81)
+            self.assertTrue(all(x['shared_readers']=='1' for x in readable))
+            self.assertEqual(readable[0]['book'],'Title 0')
+            self.assertEqual(readable[0]['artist'],'Creator')
+            page=(Path(d)/'BROWSE.md').read_text(encoding='utf-8')
+            self.assertEqual(page.count('## Same name'),4)
+            for position in range(1,10):
+                self.assertEqual(page.count(f'| {position} |'),4)
+
+    def test_browse_preserves_contributed_text_as_literal(self):
+        with tempfile.TemporaryDirectory() as d:
+            exporter.OUT=Path(d)
+            row=contribution('a','book','person1')
+            row['display_name']='[name](https://example.com) <img>'
+            row['items'][0]['title']='A | B\n*story* <script>'
+            exporter.export([row])
+            page=(Path(d)/'BROWSE.md').read_text(encoding='utf-8')
+            self.assertIn('1 complete list ·',page)
+            self.assertIn('A &#124; B &#42;story&#42; &lt;script&gt;',page)
+            self.assertIn('&#91;name&#93;(https://example.com) &lt;img&gt;',page)
+            self.assertEqual(page.count('| 9 |'),1)
 
     def test_invalid_list_is_rejected(self):
         with tempfile.TemporaryDirectory() as d:
