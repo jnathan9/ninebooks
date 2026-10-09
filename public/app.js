@@ -281,6 +281,8 @@
     if (version !== searchVersion) return;
 
     const root = $("connections");
+    $("search-kind").value = data.item.kind;
+    $("search").placeholder = data.item.kind === "album" ? "Try Blue or Joni Mitchell" : "Try Moby-Dick or Herman Melville";
 
     root.replaceChildren();
 
