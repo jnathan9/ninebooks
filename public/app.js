@@ -845,8 +845,14 @@
       : "This list will start a new contributor. Add your other list afterward to connect the two.";
   }
 
-  function updateAttribution(){const visible=$('attribution-mode').value==='public';$('attribution-fields').hidden=!visible;document.querySelectorAll('#attribution-fields input').forEach(input=>input.disabled=!visible);}
-  $('attribution-mode').onchange=updateAttribution;
+  function updateAttribution() {
+    const visible = $("attribution-mode").value === "public";
+    $("attribution-fields").hidden = !visible;
+    document
+      .querySelectorAll("#attribution-fields input")
+      .forEach((input) => (input.disabled = !visible));
+  }
+  $("attribution-mode").onchange = updateAttribution;
 
   async function openReader(id) {
     show("detail", false);
