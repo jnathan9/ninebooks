@@ -1,0 +1,16 @@
+{
+  "name": "ninebooks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:api": "node scripts/build-api.js",
+    "dev": "npm run build:api && wrangler pages dev .build-api",
+    "test": "node --test test/*.test.js",
+    "deploy": "npm run build:api && wrangler pages deploy .build-api --project-name ninebooks-api --branch main",
+    "export": "python scripts/export.py"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

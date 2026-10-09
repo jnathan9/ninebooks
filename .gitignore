@@ -1,0 +1,8 @@
+node_modules/
+.wrangler/
+.build-api/
+.dev.vars
+.env
+*.log
+__pycache__/
+data/*.sqlite

@@ -1,0 +1,15 @@
+name = "ninebooks-api"
+pages_build_output_dir = ".build-api"
+compatibility_date = "2026-10-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://thestalwart.com"
+MODEL = "claude-haiku-4-5-20251001"
+IP_HOURLY_LIMIT = "5"
+DAILY_ANALYSIS_LIMIT = "200"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ninebooks"
+database_id = "8bba0fcf-f28c-4c29-ad7f-1228ecf141a9"
+migrations_dir = "migrations"

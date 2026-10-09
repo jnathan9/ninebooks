@@ -1,0 +1,406 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <meta
+      name="description"
+      content="Share your nine favorite books and albums. Discover what people who love your books listen to, and what music lovers read."
+    />
+
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <title>Nine Books + Albums · The Stalwart</title>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%231c4938'/%3E%3Ctext x='16' y='24' text-anchor='middle' font-family='Georgia' font-size='27' fill='white'%3E9%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="config.js" defer></script>
+
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <a class="home" href="#upload">nine / nine</a
+      ><a
+        href="https://github.com/jnathan9/ninebooks"
+        target="_blank"
+        rel="noopener"
+        >Open on GitHub</a
+      >
+    </header>
+
+    <main>
+      <div class="intro">
+        <div>
+          <p class="eyebrow">BOOKS / ALBUMS / CONNECTIONS</p>
+
+          <h1>Your nine.</h1>
+
+          <p class="dek">The books and albums you love. The people who connect them.</p>
+        </div>
+
+        
+      </div>
+
+      <nav aria-label="Nine Books">
+        <button class="tab active" data-view="upload" aria-current="page">
+          Add your nine</button
+        ><button class="tab" data-view="explore">Explore connections</button
+        ><button class="tab" data-view="lists">Browse lists</button
+        ><button class="tab" data-view="data">Get the data</button
+        ><span id="stats"></span>
+      </nav>
+
+      <p id="notice" class="notice" role="status" aria-live="polite" hidden></p>
+
+      <section id="upload-view" class="view">
+        <div class="section-heading">
+          <h2>Add your favorites.</h2>
+
+          <p>
+            Upload your collage, check the titles, then add your list to the
+            collection.
+          </p>
+        </div>
+
+        <div id="upload-options" class="upload-options">
+          <label for="upload-kind">I’m adding nine</label
+          ><select id="upload-kind">
+            <option value="book">Books</option>
+            <option value="album">Albums</option>
+          </select>
+
+          <span class="subtle">One complete list at a time.</span>
+        </div>
+
+        <div id="upload-start" class="upload-layout">
+          <label class="dropzone" id="dropzone"
+            ><input
+              id="image-file"
+              type="file"
+              accept="image/jpeg,image/png,image/webp"
+            /><span class="upload-symbol" aria-hidden="true">＋</span
+            ><strong id="upload-label">Choose your nine-book image</strong
+            ><span>or drop it here</span
+            ><small>JPG, PNG or WebP · up to 5 MB</small></label
+          >
+
+          <aside class="how">
+            <p class="eyebrow">KEEP THE NINE TOGETHER</p>
+
+            <h3>Your books. Your music.<br />The connections between.</h3>
+
+            <p>
+              Someone who loves <em>Moby-Dick</em> has eight other favorite books—and perhaps nine favorite albums. Explore both.
+            </p>
+
+            <p>
+              Add your book list and album list as the same contributor to
+              connect them. Every nine stays intact.
+            </p>
+
+            <p class="fine">
+              Your image is sent to Claude to read the covers. We don’t save or
+              publish the image. You review every title before anything becomes
+              public.
+            </p>
+          </aside>
+        </div>
+
+        <div id="working" class="working" hidden>
+          <span class="spinner"></span>
+
+          <h3>Reading your covers…</h3>
+
+          <p>
+            This usually takes a few moments. You’ll be able to correct every
+            title.
+          </p>
+        </div>
+
+        <form id="review" hidden>
+          <div class="review-top">
+            <img id="preview" alt="Your uploaded nine-favorites collage" />
+
+            <div>
+              <p class="eyebrow">REVIEW YOUR NINE</p>
+
+              <h3>Did we get them right?</h3>
+
+              <p>
+                Check every title and author or artist. The numbered positions
+                follow your image, left to right and top to bottom; they aren’t
+                a ranking.
+              </p>
+
+              <button type="button" class="text-button" id="start-over">
+                Choose a different image
+              </button>
+            </div>
+          </div>
+
+          <div class="review-grid" id="review-grid"></div>
+
+          <div class="identity-panel">
+            <h3>Connect your books and albums.</h3>
+
+            <p id="identity-status">
+              This list will start a new contributor. Add your other list
+              afterward to connect the two.
+            </p>
+
+            <label id="link-choice" hidden
+              ><input type="checkbox" id="link-reader" checked /> Link this list
+              to my previous lists on this browser.</label
+            >
+
+            <p class="fine">
+              The connection will be public, even if you leave your name blank.
+              For someone else’s list, uncheck the box to start a separate
+              contributor. Display names never link people automatically.
+            </p>
+
+            <details>
+              <summary>Connect lists from another device</summary>
+              <p>
+                Enter your private pairing code from your earlier submission.
+                Keep it private: it lets someone add lists to your contributor
+                profile.
+              </p>
+              <label for="pairing-code">Private pairing code</label
+              ><input
+                id="pairing-code"
+                type="password"
+                autocomplete="off"
+                maxlength="2000"
+              /><button type="button" class="secondary" id="use-pairing">
+                Use pairing code
+              </button>
+            </details>
+          </div>
+
+          <div class="attribution-choice"><label for="attribution-mode">How should your list be credited?</label><select id="attribution-mode" name="attribution"><option value="anonymous">Anonymous — no name or handle</option><option value="public">Attach my name or handle</option></select><p class="subtle">Anonymous lists can still connect your books and albums. If another linked list shows your handle, people may identify you through that connection. Start a separate contributor to keep them apart.</p></div>
+          <div class="attribution" id="attribution-fields" hidden>
+            <label
+              >Your name or handle <small>(optional, public)</small
+              ><input
+                name="display_name"
+                disabled
+                maxlength="80"
+                placeholder="Anonymous if left blank"
+                autocomplete="off" /></label
+            ><label
+              >Link to your original post <small>(optional, public)</small
+              ><input
+                name="source_url"
+                disabled
+                type="url"
+                maxlength="500"
+                placeholder="https://x.com/you/status/…"
+            /></label>
+          </div>
+
+          <label class="consent"
+            ><input type="checkbox" id="consent" required /><span
+              >This is my list, or I have permission to contribute it. I checked
+              all nine titles and agree to publish this list, its contributor
+              links, and any attribution above as
+
+              <a
+                href="https://creativecommons.org/publicdomain/zero/1.0/"
+                target="_blank"
+                rel="noopener"
+                >CC0 open data</a
+              >. Anyone can download, reuse and redistribute it, including
+              through GitHub; copies may remain public permanently.</span
+            ></label
+          >
+
+          <button class="primary" type="submit" id="publish">
+            Publish my nine
+          </button>
+        </form>
+
+        <div id="success" hidden>
+          <p class="eyebrow">ADDED TO THE COLLECTION</p>
+
+          <h2>Your nine, connected.</h2>
+
+          <p>
+            Share your list, or click any title to explore books and albums
+            connected to it.
+          </p>
+
+          <div class="actions">
+            <button id="copy-link" class="primary">Copy list link</button
+            ><button id="add-other" class="secondary">Add my albums next</button
+            ><button id="another" class="secondary">Add another list</button>
+          </div>
+
+          <div class="pairing-save">
+            <p>
+              Keep your private pairing code to link future lists from another
+              device. Your public list link does not contain it.
+            </p>
+            <button id="pair-copy" class="text-button">
+              Copy my private pairing code</button
+            ><textarea
+              id="pair-fallback"
+              readonly
+              hidden
+              aria-label="Private pairing code"
+            ></textarea>
+          </div>
+          <div id="published-list"></div>
+        </div>
+      </section>
+
+      <section id="explore-view" class="view" hidden>
+        <div class="section-heading">
+          <h2>Start with something you love.</h2>
+
+          <p>Find the books and albums loved by the people who chose it.</p>
+        </div>
+
+        <div class="kind-filter">
+          <label for="search-kind">Explore</label
+          ><select id="search-kind">
+            <option value="book">Books</option>
+            <option value="album">Albums</option>
+          </select>
+        </div>
+        <form id="search-form" class="search">
+          <label class="sr-only" for="search"
+            >Search titles, authors or artists</label
+          ><input
+            id="search"
+            placeholder="Try Moby-Dick or Herman Melville"
+            type="search"
+            maxlength="120"
+          /><button class="primary">Search</button>
+        </form>
+
+        <div id="book-results"></div>
+
+        <div id="connections" hidden></div>
+      </section>
+
+      <section id="lists-view" class="view" hidden>
+        <div class="section-heading">
+          <h2>Nine at a time.</h2>
+
+          <p>
+            Every contribution is a complete list of nine books or albums. Click
+            any title to follow its connections.
+          </p>
+        </div>
+
+        <div id="list-results"></div>
+
+        <button id="more-lists" class="secondary" hidden>
+          Load more lists
+        </button>
+      </section>
+
+      <section id="data-view" class="view" hidden>
+        <div class="section-heading">
+          <h2>A collection anyone can build on.</h2>
+
+          <p>
+            The source code, complete lists, and connections between books and
+            albums are open to everyone.
+          </p>
+        </div>
+
+        <div class="data-layout">
+          <div>
+            <h3>The list is the unit.</h3>
+
+            <p>
+              Every contribution gets a permanent list ID and nine item
+              memberships. Each membership has an item ID and a position in the
+              original image. That preserves the relationships within and
+              between books and albums, not just a tally of popular titles. Book
+              and album lists from the same person share a public contributor
+              ID.
+            </p>
+
+            <p>
+              Use the data for recommendations, co-occurrence networks,
+              research, or your own projects. Names and post links are optional;
+              attribution is self-reported.
+            </p>
+
+            <div class="actions">
+              <a
+                class="primary"
+                href="https://github.com/jnathan9/ninebooks/tree/main/data"
+                target="_blank"
+                rel="noopener"
+                >Download from GitHub</a
+              ><button id="download" class="secondary">
+                Download live JSON
+              </button>
+            </div>
+
+            <p id="download-status" role="status"></p>
+          </div>
+
+          <aside class="data-notes">
+            <h3>What’s included</h3>
+
+            <p>
+              <strong>JSONL &amp; CSV</strong><br />Complete lists, books,
+              albums, contributor links, and list memberships.
+            </p>
+
+            <p>
+              <strong>CC0 data · MIT code</strong><br />GitHub snapshots refresh
+              hourly. Live downloads include the latest published lists.
+            </p>
+
+            <p>
+              <strong>No uploaded images</strong><br />Confirmed titles, authors
+              or artists, list and contributor IDs, dates and optional
+              attribution are public. Pairing codes stay private.
+            </p>
+
+            <p>
+              <strong>Early data, real limitations</strong><br />Readers opt in.
+              These aren’t verified purchases or a representative poll.
+              Alternate editions, translations and author spellings may need
+              reconciliation.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="detail-view" class="view" hidden>
+        <button class="text-button" id="back-lists">Browse all lists</button>
+
+        <div id="detail"></div>
+
+        <button id="detail-copy" class="secondary">Copy list link</button>
+      </section>
+    </main>
+
+    <footer>
+      <span>NINE BOOKS + ALBUMS / An open taste experiment by The Stalwart</span
+      ><a
+        href="https://github.com/jnathan9/ninebooks/issues"
+        target="_blank"
+        rel="noopener"
+        >Corrections &amp; questions</a
+      >
+    </footer>
+  </body>
+</html>
