@@ -2,6 +2,8 @@ id,title,author
 01fe6a5fc12d6d016a843110,The Employees: A Workplace Novel of the 22nd Century,Olga Ravn
 03b2832c2a7e7468a2113e13,You Can't Go Home Again,Thomas Wolfe
 058f863a864a1942cbe59a14,The Leopard: A Novel,Giuseppe di Lampedusa
+09338e0dc9df372c4b69dba5,For Whom the Bell Tolls,Ernest Hemingway
+0a63fd99dab5d93e0c9309cc,The Brothers Karamazov,Fyodor Dostoyevsky
 0ac58721477bd580050b99d6,Portnoy's Complaint,Philip Roth
 0c757d0731bb97db3b23ba90,Mating,Norman Rush
 0e8e8ff43834f4419d22cb4a,The Return of the King,J.R.R. Tolkien
@@ -9,6 +11,7 @@ id,title,author
 0eb6b9e61939a744e7a75ccb,The Chronicles and Essays of A.E. Housman,A.E. Housman
 0f04059bfd38ab571e1352a2,John Brown: A Biography,W.E.B. Du Bois
 110776abf1656159d7d479b4,Bel Canto,Ann Patchett
+1110866ff3c16935cfb42cac,The God of Small Things: A Novel,Arundhati Roy
 12c9ab2e088f81c8066643dc,Mating: A Novel,Norman Rush
 13bce5f07c63e75d01debfff,Preface to Plato,Eric A. Havelock
 1434f0eaeafc4305019f9a93,Gone with the Wind,Margaret Mitchell
@@ -86,6 +89,7 @@ id,title,author
 86762be6e8493db205f4ce5a,The Art of Not Being Governed: An Anarchist History of Upland Southeast Asia,James C. Scott
 88a7642100c56eaa1b65c3d5,We the Living,Ayn Rand
 8ae0cb9a73ed2141e74f0681,"The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence",Sebastian Mallaby
+8c8fa829c4d61a257bb3b9c2,The Grapes of Wrath,John Steinbeck
 8c9b4e69aa0b8a04bcb2a650,Blood Meridian: Or the Evening Redness in the West,Cormac McCarthy
 8cfdd431c9151ad1c0d915dc,Piranesi,Susanna Clarke
 8feb232fe68b4c90c77af08d,Living the Good Life: How to Live Sanely and Simply in a Troubled World,Helen and Scott Nearing
@@ -95,6 +99,7 @@ id,title,author
 93c2451bb9c351cd8c1d7b7f,Dominion: How the Christian Revolution Remade the World,Tom Holland
 94f3bf86c5cda89c65e00348,Nature's Metropolis: Chicago and the Great West,William Cronon
 956877eb57bf8bcc7eaa3712,The Alignment Problem: Machine Learning and Human Values,Brian Christian
+963568f8305f9bbbe7f75ae0,White Noise: A Novel,Don DeLillo
 96576463a858b429395b041e,Anathem,Neal Stephenson
 97bae7a26804cbf94517ef00,The Phenomenon of Man,Pierre Teilhard de Chardin
 97ef28487019e64755dd57d7,Barbarian Days: A Surfing Life,William Finnegan
@@ -132,6 +137,7 @@ c3848533198ab3a1d895c12d,The Stranger,Albert Camus
 c442a81ad9fe181d32a68818,Revolutionary Road & Easter Parade,Richard Yates
 c6f79c722d6b9871929109b2,Paradise Lost,John Milton
 c74dd4c74bc9918065b7880d,Victoria,Knut Hamsun
+c8d21733cb28f538e917efc7,"A Storm of Swords: A Song of Ice and Fire, Book 3",George R. R. Martin
 ca6ff12ada36bf0a395456e8,The Paradox of American Power: Why the World's Only Superpower Can't Go It Alone,Joseph S. Nye Jr
 cac65786080fbe563bb45c4a,The Remains of the Day,Kazuo Ishiguro
 caf5de9fd3ab909debdd6687,Q: A Deadly Historical Thriller – Papal Spy Hunts Heretic Through...,Luther Blisset
@@ -146,8 +152,10 @@ dcce2e82b2d5cd6dea55473c,The Fire Next Time,James Baldwin
 e0f10988eca058ca51dc93f2,Crime and Punishment,Fyodor Dostoevsky
 e270d036cc757cbc0d0587b8,"The Claim of Reason: Wittgenstein, Skepticism, Morality, and Tragedy",Stanley Cavell
 e33f7fb4848924c4c24af44e,Penguin Island,Anatole France
+e3418ef28e914891a3ded6bb,Intermezzo: A Novel,Sally Rooney
 e43dd10070f1a6b37b4067a4,James Joyce,Richard Ellmann
 e507da70783d862dea1db2e8,The Satanic Verses: A Novel,Salman Rushdie
+e5719f00f4cd036583ff6ebd,The Flamethrowers,Rachel Kushner
 ea5c7df78396e49bd782e99e,From Backrooms to Boardrooms: The Rise of Institutional Investment in Timberland,Daowei Zhang
 eba03654fd9413c5655cbfbd,"Mariners, Renegades & Castaways",C. L. R. James
 ed8e1ae0aa21cccf0b875708,The Israel-Palestine Conflict: One Hundred Years of War,James L. Gelvin
@@ -155,4 +163,5 @@ ef55db177a5e859855bc606a,The City and the Stars,Arthur C. Clarke
 f400dd1a1a279e59bc809664,Slouching Towards Bethlehem: Essays,Joan Didion
 f41257d940969103473b85c4,Going Postal: A Novel of Discworld,Terry Pratchett
 f81320a66f37e73ff279c938,Orality and Literacy,Walter J. Ong
+f9b37995f4d379c36c26f065,Those Who Leave and Those Who Stay: A Novel,Elena Ferrante
 fa28981601ac69b2c2b31f8d,The Moral Animal: Why We Are the Way We Are: The New Science of Evolutionary Psychology,Robert Wright

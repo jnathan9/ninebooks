@@ -1,11 +1,14 @@
 id,kind,title,creator
 01110fd2a1b529268ced9304,album,Shrines,Purity Ring
 01fe6a5fc12d6d016a843110,book,The Employees: A Workplace Novel of the 22nd Century,Olga Ravn
+02774786b2144c9e0b27b9cd,album,The Melodic Blue,Baby Keem
 03b2832c2a7e7468a2113e13,book,You Can't Go Home Again,Thomas Wolfe
 053a8db16ad15c7fb0c9ed8f,album,Sometimes I Wish We Were an Eagle,Bill Callahan
 058f863a864a1942cbe59a14,book,The Leopard: A Novel,Giuseppe di Lampedusa
 0619719f9ab4b6456593560a,album,Eat a Peach,The Allman Brothers Band
 092ee0a42ab842afc30ceaf5,album,Changes,Charles Bradley
+09338e0dc9df372c4b69dba5,book,For Whom the Bell Tolls,Ernest Hemingway
+0a63fd99dab5d93e0c9309cc,book,The Brothers Karamazov,Fyodor Dostoyevsky
 0ac58721477bd580050b99d6,book,Portnoy's Complaint,Philip Roth
 0b74feb9eb38105608968390,album,Souvlaki,Slowdive
 0c757d0731bb97db3b23ba90,book,Mating,Norman Rush
@@ -17,6 +20,7 @@ id,kind,title,creator
 0f04059bfd38ab571e1352a2,book,John Brown: A Biography,W.E.B. Du Bois
 0f1b698bdd7f88c7fac6f0e2,album,"thank u, next",Ariana Grande
 110776abf1656159d7d479b4,book,Bel Canto,Ann Patchett
+1110866ff3c16935cfb42cac,book,The God of Small Things: A Novel,Arundhati Roy
 11ca51c986648577ba49a2d7,album,Witching Hour,Ladytron
 12c9ab2e088f81c8066643dc,book,Mating: A Novel,Norman Rush
 12f083464eec296a873032ad,album,COWBOY CARTER,Beyoncé
@@ -33,6 +37,7 @@ id,kind,title,creator
 2404294565a601a0f976da10,book,The Dispossessed,Ursula K. Le Guin
 265fa885c43e272dabd76a47,book,Les Misérables,Victor Hugo
 2684d64e7ac9de85a3e28d1a,book,"Reconstruction Updated Edition: America's Unfinished Revolution, 1863–1877",Eric Foner
+26c1ae025cb2022778be7f69,album,The Sun's Tirade,Isaiah Rashad
 2a31c52679466a1453cb117b,book,Atlas Shrugged,Ayn Rand
 2cbe05f62b2448220c1bfbb6,album,II,Desire
 2d6411b9fcec4736151ab23e,book,In a Sunburned Country,Bill Bryson
@@ -42,6 +47,7 @@ id,kind,title,creator
 2ef8e67f2ce73f995c0ab300,book,"Autumn in the Heavenly Kingdom: China, the West, and the Epic Story of the Taiping Civil War",Stephen R. Platt
 2fa20d751fb94dc55a62b41f,book,Fighting for Life,Walter J. Ong
 2fcc9926b1baed651a9065ff,book,Collected Poems,Philip Larkin
+309cfe5ae3b6295bbe27822e,album,House of Balloons,The Weeknd
 33a744acd36016ca468aac6b,book,Reminiscences of a Stock Operator,Edwin Lefèvre
 33f1d486567a7e8bdea50d1d,book,A Walk in the Woods: Rediscovering America on the Appalachian Trail,Bill Bryson
 347316114d067833dfa677d2,album,Melodrama,Lorde
@@ -136,6 +142,7 @@ id,kind,title,creator
 86a8daf700904cc1b4029236,album,604,Ladytron
 88a7642100c56eaa1b65c3d5,book,We the Living,Ayn Rand
 8ae0cb9a73ed2141e74f0681,book,"The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence",Sebastian Mallaby
+8c8fa829c4d61a257bb3b9c2,book,The Grapes of Wrath,John Steinbeck
 8c9b4e69aa0b8a04bcb2a650,book,Blood Meridian: Or the Evening Redness in the West,Cormac McCarthy
 8cfdd431c9151ad1c0d915dc,book,Piranesi,Susanna Clarke
 8dc8bf8239f00df5d29c2540,album,The Devil and God Are Raging Inside Me,Brand New
@@ -152,12 +159,14 @@ id,kind,title,creator
 94913693d63da0d8849bdf13,album,Frailty,Jane Remover
 94f3bf86c5cda89c65e00348,book,Nature's Metropolis: Chicago and the Great West,William Cronon
 956877eb57bf8bcc7eaa3712,book,The Alignment Problem: Machine Learning and Human Values,Brian Christian
+963568f8305f9bbbe7f75ae0,book,White Noise: A Novel,Don DeLillo
 96576463a858b429395b041e,book,Anathem,Neal Stephenson
 97bae7a26804cbf94517ef00,book,The Phenomenon of Man,Pierre Teilhard de Chardin
 97ef28487019e64755dd57d7,book,Barbarian Days: A Surfing Life,William Finnegan
 989fbe2e0730014f43988d35,album,Ænima,Tool
 992a7462bc690df04e2e28d1,book,Dune,Frank Herbert
 9b6bdb0b0d4481b9223da843,album,Is This It,The Strokes
+9baab6e283952930c1d1626b,album,Acid Rap,Chance the Rapper
 9c1316e221f0c590bca1c50b,album,Adrenaline,Deftones
 9c79226a288426d866c2bc81,album,Hejira,Joni Mitchell
 9e4a674fbbc75f7dc202f604,book,Swann's Way,Marcel Proust
@@ -175,6 +184,7 @@ a89f771f4ffe9d44effc6e56,album,FLYGOD,Westside Gunn
 a915b422d911b20683b2c921,book,The Fountainhead,Ayn Rand
 a94fc24a81b1be3f4c4fcf52,book,A Farewell to Arms,Ernest Hemingway
 a9ef53ca5319f87b76f9a980,book,Danton's Death,Georg Büchner
+aa1908d0388213c76dbf3c0c,album,The Miseducation of Lauryn Hill,Lauryn Hill
 ac7ac787c862a819b86a4ff1,book,Fragments of an Anarchist Anthropology,David Graeber
 ad9ce54f3338734621ea82b5,book,Sol Lewitt: 100 Views,Susan M Cross
 adb594e48056947c7a919c65,book,My Brilliant Friend: The Four Volumes,Elena Ferrante
@@ -186,6 +196,7 @@ b9d00cd80fb743dd2da314f0,book,Flatline Constructs: Gothic Materialism and Cybern
 ba508204c1091fa8b7fd6c37,book,Macbeth,William Shakespeare
 bb681afc467a11080e8d1f8a,book,The Rings of Saturn,W.G. Sebald
 bb941009754205b1155c8d31,album,Madvillainy,Madvillain
+bcb1d22760a3d203b43adb86,album,"good kid, m.A.A.d city",Kendrick Lamar
 bcca0ee4ee6f88d910c28479,album,Yeezus,Kanye West
 be08eca655606d2a90620420,book,God Emperor of Dune,Frank Herbert
 be79b615a3cf6f5f9d4a8f3f,book,Of Mice and Men,John Steinbeck
@@ -200,6 +211,7 @@ c442a81ad9fe181d32a68818,book,Revolutionary Road & Easter Parade,Richard Yates
 c6f79c722d6b9871929109b2,book,Paradise Lost,John Milton
 c74dd4c74bc9918065b7880d,book,Victoria,Knut Hamsun
 c8423eff96c6381db50b9143,album,a slice of life,deathbrain
+c8d21733cb28f538e917efc7,book,"A Storm of Swords: A Song of Ice and Fire, Book 3",George R. R. Martin
 c947a04c47ed0328ca9a174d,album,Strange Mercy,St. Vincent
 ca6ff12ada36bf0a395456e8,book,The Paradox of American Power: Why the World's Only Superpower Can't Go It Alone,Joseph S. Nye Jr
 caa0fb4da3d5e645d2c6752d,album,The Tortured Poets Department,Taylor Swift
@@ -210,6 +222,7 @@ ce32e8103d1789ca77ebb376,book,Trouble on Triton,Samuel R. Delany
 d42a9abe1329fe9bed1703d3,album,Siamese Dream,Smashing Pumpkins
 d442581e0501a526f450072b,book,Heartburn,Nora Ephron
 d45ce63ee206147499099253,album,LUX,ROSALÍA
+d5e36e80f6ae956458b0ce2e,album,HNDRXX,Future
 d5ffe9b81a86b6c31b96d117,book,Ficciones,Jorge Luis Borges
 d6758894b355bd25fa3920aa,book,To Rule All Under Heaven: A History of Classical China From Confucius to the First Emperor,Andrew Seth Meyer
 d7e2b5db23788ff83e85f9d2,album,Talking Book,Stevie Wonder
@@ -220,10 +233,12 @@ dcce2e82b2d5cd6dea55473c,book,The Fire Next Time,James Baldwin
 e0f10988eca058ca51dc93f2,book,Crime and Punishment,Fyodor Dostoevsky
 e270d036cc757cbc0d0587b8,book,"The Claim of Reason: Wittgenstein, Skepticism, Morality, and Tragedy",Stanley Cavell
 e33f7fb4848924c4c24af44e,book,Penguin Island,Anatole France
+e3418ef28e914891a3ded6bb,book,Intermezzo: A Novel,Sally Rooney
 e43dd10070f1a6b37b4067a4,book,James Joyce,Richard Ellmann
 e4a4af763229c82d0b85675b,album,Dummy,Portishead
 e507da70783d862dea1db2e8,book,The Satanic Verses: A Novel,Salman Rushdie
 e554f2af23eb48e4fff9eeb0,album,Ys,Joanna Newsom
+e5719f00f4cd036583ff6ebd,book,The Flamethrowers,Rachel Kushner
 e5d2dfd674f69678ad9ad714,album,Aquemini,OutKast
 e8be2fcead12e270d0e91b85,album,Blood on the Tracks,Bob Dylan
 e99412a533e7d822c54f9023,album,Technique,New Order
@@ -240,6 +255,8 @@ f41257d940969103473b85c4,book,Going Postal: A Novel of Discworld,Terry Pratchett
 f5ecaf86662e86b04a351435,album,In Rainbows,Radiohead
 f81320a66f37e73ff279c938,book,Orality and Literacy,Walter J. Ong
 f938790f3383a24e763cee83,album,We Shall All Be Healed,The Mountain Goats
+f9b37995f4d379c36c26f065,book,Those Who Leave and Those Who Stay: A Novel,Elena Ferrante
 fa28981601ac69b2c2b31f8d,book,The Moral Animal: Why We Are the Way We Are: The New Science of Evolutionary Psychology,Robert Wright
+fc2073e2e0638ba372e761d2,album,CAMP,Childish Gambino
 feeedba3b4f2bc430937d35e,album,Crystal Castles,Crystal Castles
 ff7909201fa3c9e2322b9d59,album,Anthology 1935-1973,Bob Wills and His Texas Playboys

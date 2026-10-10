@@ -1,12 +1,44 @@
 # Browse the database
 
-**28 complete lists · 157 books · 87 albums**
+**30 complete lists · 166 books · 95 albums**
 
 [Books](books.csv) · [Albums](albums.csv) · [Book–album connections](connections.csv) · [All data files](README.md)
 
 Each section below is one complete contribution. Lists linked to the same contributor share a public profile. Names are optional and self-reported.
 
 Showing every list in this snapshot. Refreshed with the hourly export.
+
+## Anonymous contributor · Nine albums
+
+2026-10-10 · [Open this list](https://thestalwart.com/ninebooks/#list/178d91b1-6e9b-4695-a97c-e4e5b204b049) · [This contributor’s books & albums](https://thestalwart.com/ninebooks/#reader/804e60ad-c00d-4cca-ab36-ee575197cbe1)
+
+| Position | Title | Artist |
+| --- | --- | --- |
+| 1 | good kid, m.A.A.d city | Kendrick Lamar |
+| 2 | The Miseducation of Lauryn Hill | Lauryn Hill |
+| 3 | HNDRXX | Future |
+| 4 | channel ORANGE | Frank Ocean |
+| 5 | House of Balloons | The Weeknd |
+| 6 | Acid Rap | Chance the Rapper |
+| 7 | CAMP | Childish Gambino |
+| 8 | The Sun's Tirade | Isaiah Rashad |
+| 9 | The Melodic Blue | Baby Keem |
+
+## Anonymous contributor · Nine books
+
+2026-10-10 · [Open this list](https://thestalwart.com/ninebooks/#list/c59f100a-5d42-4499-9a1d-686701d31505) · [This contributor’s books & albums](https://thestalwart.com/ninebooks/#reader/804e60ad-c00d-4cca-ab36-ee575197cbe1)
+
+| Position | Title | Author |
+| --- | --- | --- |
+| 1 | The Grapes of Wrath | John Steinbeck |
+| 2 | The God of Small Things: A Novel | Arundhati Roy |
+| 3 | The Flamethrowers | Rachel Kushner |
+| 4 | Those Who Leave and Those Who Stay: A Novel | Elena Ferrante |
+| 5 | For Whom the Bell Tolls | Ernest Hemingway |
+| 6 | A Storm of Swords: A Song of Ice and Fire, Book 3 | George R. R. Martin |
+| 7 | The Brothers Karamazov | Fyodor Dostoyevsky |
+| 8 | Intermezzo: A Novel | Sally Rooney |
+| 9 | White Noise: A Novel | Don DeLillo |
 
 ## Anonymous contributor · Nine books
 
