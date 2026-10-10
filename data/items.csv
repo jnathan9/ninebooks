@@ -7,12 +7,16 @@ id,kind,title,creator
 0619719f9ab4b6456593560a,album,Eat a Peach,The Allman Brothers Band
 092ee0a42ab842afc30ceaf5,album,Changes,Charles Bradley
 0ac58721477bd580050b99d6,book,Portnoy's Complaint,Philip Roth
+0b74feb9eb38105608968390,album,Souvlaki,Slowdive
+0d756629fedd3bbf55741e93,album,Official Version,Front 242
+0e5d340603288950347a1684,album,Crystal Castles II,Crystal Castles
 0e8e8ff43834f4419d22cb4a,book,The Return of the King,J.R.R. Tolkien
 0eb16ed1f9030720fb602397,book,A Heart so White,Javier Marías
 0eb6b9e61939a744e7a75ccb,book,The Chronicles and Essays of A.E. Housman,A.E. Housman
 0f04059bfd38ab571e1352a2,book,John Brown: A Biography,W.E.B. Du Bois
 0f1b698bdd7f88c7fac6f0e2,album,"thank u, next",Ariana Grande
 110776abf1656159d7d479b4,book,Bel Canto,Ann Patchett
+11ca51c986648577ba49a2d7,album,Witching Hour,Ladytron
 12c9ab2e088f81c8066643dc,book,Mating: A Novel,Norman Rush
 12f083464eec296a873032ad,album,COWBOY CARTER,Beyoncé
 13bce5f07c63e75d01debfff,book,Preface to Plato,Eric A. Havelock
@@ -32,6 +36,7 @@ id,kind,title,creator
 2cbe05f62b2448220c1bfbb6,album,II,Desire
 2d6411b9fcec4736151ab23e,book,In a Sunburned Country,Bill Bryson
 2e9ac5d36fa3edeb0bdcf7d6,album,What's Going On,Marvin Gaye
+2ee8cfe5c9c92be046f92d6d,album,Elastica,Elastica
 2ef8e67f2ce73f995c0ab300,book,"Autumn in the Heavenly Kingdom: China, the West, and the Epic Story of the Taiping Civil War",Stephen R. Platt
 2fa20d751fb94dc55a62b41f,book,Fighting for Life,Walter J. Ong
 2fcc9926b1baed651a9065ff,book,Collected Poems,Philip Larkin
@@ -123,6 +128,7 @@ id,kind,title,creator
 83f3f0504e987ea6bf73f84f,book,We Tell Ourselves Stories in Order to Live: Collected Nonfiction,Joan Didion
 84537b9de367b939f5e04a8d,book,The Master and His Emissary,Iain McGilchrist
 86762be6e8493db205f4ce5a,book,The Art of Not Being Governed: An Anarchist History of Upland Southeast Asia,James C. Scott
+86a8daf700904cc1b4029236,album,604,Ladytron
 88a7642100c56eaa1b65c3d5,book,We the Living,Ayn Rand
 8ae0cb9a73ed2141e74f0681,book,"The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence",Sebastian Mallaby
 8c9b4e69aa0b8a04bcb2a650,book,Blood Meridian: Or the Evening Redness in the West,Cormac McCarthy
@@ -211,6 +217,7 @@ e507da70783d862dea1db2e8,book,The Satanic Verses: A Novel,Salman Rushdie
 e554f2af23eb48e4fff9eeb0,album,Ys,Joanna Newsom
 e5d2dfd674f69678ad9ad714,album,Aquemini,OutKast
 e8be2fcead12e270d0e91b85,album,Blood on the Tracks,Bob Dylan
+e99412a533e7d822c54f9023,album,Technique,New Order
 ea5c7df78396e49bd782e99e,book,From Backrooms to Boardrooms: The Rise of Institutional Investment in Timberland,Daowei Zhang
 eb8625d9be4a020b0c37370f,album,Lemonade,Beyoncé
 eba03654fd9413c5655cbfbd,book,"Mariners, Renegades & Castaways",C. L. R. James
@@ -225,4 +232,5 @@ f5ecaf86662e86b04a351435,album,In Rainbows,Radiohead
 f81320a66f37e73ff279c938,book,Orality and Literacy,Walter J. Ong
 f938790f3383a24e763cee83,album,We Shall All Be Healed,The Mountain Goats
 fa28981601ac69b2c2b31f8d,book,The Moral Animal: Why We Are the Way We Are: The New Science of Evolutionary Psychology,Robert Wright
+feeedba3b4f2bc430937d35e,album,Crystal Castles,Crystal Castles
 ff7909201fa3c9e2322b9d59,album,Anthology 1935-1973,Bob Wills and His Texas Playboys

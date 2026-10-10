@@ -1,12 +1,28 @@
 # Browse the database
 
-**26 complete lists · 148 books · 79 albums**
+**27 complete lists · 148 books · 87 albums**
 
 [Books](books.csv) · [Albums](albums.csv) · [Book–album connections](connections.csv) · [All data files](README.md)
 
 Each section below is one complete contribution. Lists linked to the same contributor share a public profile. Names are optional and self-reported.
 
 Showing every list in this snapshot. Refreshed with the hourly export.
+
+## Anonymous contributor · Nine albums
+
+2026-10-09 · [Open this list](https://thestalwart.com/ninebooks/#list/b688811e-84c7-42c3-bc8d-8d055699081d) · [This contributor’s books & albums](https://thestalwart.com/ninebooks/#reader/c173039e-6892-47e4-b44e-bae2f351e1c3)
+
+| Position | Title | Artist |
+| --- | --- | --- |
+| 1 | Souvlaki | Slowdive |
+| 2 | Witching Hour | Ladytron |
+| 3 | Official Version | Front 242 |
+| 4 | Crystal Castles | Crystal Castles |
+| 5 | The Queen Is Dead | The Smiths |
+| 6 | 604 | Ladytron |
+| 7 | Elastica | Elastica |
+| 8 | Technique | New Order |
+| 9 | Crystal Castles II | Crystal Castles |
 
 ## Anonymous contributor · Nine books
 
