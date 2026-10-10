@@ -3,6 +3,7 @@ id,title,author
 03b2832c2a7e7468a2113e13,You Can't Go Home Again,Thomas Wolfe
 058f863a864a1942cbe59a14,The Leopard: A Novel,Giuseppe di Lampedusa
 0ac58721477bd580050b99d6,Portnoy's Complaint,Philip Roth
+0c757d0731bb97db3b23ba90,Mating,Norman Rush
 0e8e8ff43834f4419d22cb4a,The Return of the King,J.R.R. Tolkien
 0eb16ed1f9030720fb602397,A Heart so White,Javier Marías
 0eb6b9e61939a744e7a75ccb,The Chronicles and Essays of A.E. Housman,A.E. Housman
@@ -23,6 +24,7 @@ id,title,author
 2684d64e7ac9de85a3e28d1a,"Reconstruction Updated Edition: America's Unfinished Revolution, 1863–1877",Eric Foner
 2a31c52679466a1453cb117b,Atlas Shrugged,Ayn Rand
 2d6411b9fcec4736151ab23e,In a Sunburned Country,Bill Bryson
+2ef37f5ef5d733d58aa33a90,Mrs. Bridge,Evan S. Connell
 2ef8e67f2ce73f995c0ab300,"Autumn in the Heavenly Kingdom: China, the West, and the Epic Story of the Taiping Civil War",Stephen R. Platt
 2fa20d751fb94dc55a62b41f,Fighting for Life,Walter J. Ong
 2fcc9926b1baed651a9065ff,Collected Poems,Philip Larkin
@@ -33,10 +35,12 @@ id,title,author
 37bc3bfeec03ef9e23f9b3ce,Leaving the Atocha Station,Ben Lerner
 39fc43841a5ad52267c3fd87,"Moby-Dick; or, The Whale",Herman Melville
 3b28f9aba8c0d4e964f86c3f,The Places in Between,Rory Stewart
+3cb021afec3a7c7953564b98,Palimpsest: A Memoir,Gore Vidal
 3ded1c05e85a9ae5f947e351,Americana: A 400-Year History of American Capitalism,Bhu Srinivasan
 3f18d649175260b7d7a7d2ed,The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers,Ben Horowitz
 420275264474fef5e6b5b2e2,The Odyssey,Homer
 4679baba64eae995bbf4ac45,The Brothers Karamazov,Fyodor Dostoevsky
+48151910713aab454b225371,Poems,Elizabeth Bishop
 489a9ce9fc4fd9cc48a81511,The Enigma of Arrival,V.S. Naipaul
 48e1506862f391446f6cdc33,On Writing: A Memoir of the Craft,Stephen King
 4acd9f52571325591cd82692,Jesus Wept: Seven Popes and the Battle for the Soul of the Catholic Church,Philip Shenon
@@ -76,6 +80,7 @@ id,title,author
 78066d3806ab3002c905dd09,The Protestant Work Ethic and the Spirit of Capitalism,Max Weber
 784cfb4a5e8e2688e48c30f1,Invisible Man,Ralph Ellison
 7a822caa044e5f00c7756582,Frankenstein,Mary Shelley
+810e807d3481c3889ce87e43,Nixon Agonistes: The Crisis of the Self-Made Man,Garry Wills
 83f3f0504e987ea6bf73f84f,We Tell Ourselves Stories in Order to Live: Collected Nonfiction,Joan Didion
 84537b9de367b939f5e04a8d,The Master and His Emissary,Iain McGilchrist
 86762be6e8493db205f4ce5a,The Art of Not Being Governed: An Anarchist History of Upland Southeast Asia,James C. Scott
@@ -99,6 +104,7 @@ id,title,author
 9f8b6f49ac6ea8319bfe4835,A View from the Bridge,Arthur Miller
 a0a8fd60a78ec2a59c326f02,The Fellowship of the Ring,J.R.R. Tolkien
 a0cbd74cd494aff9061c6294,The Depths of Time,Roger macbride Allen
+a0dd233701c8225200cd02ec,The Silent Woman: Sylvia Plath and Ted Hughes,Janet Malcolm
 a1be7cdd80dd53a69499c559,The Unincorporated Man,Dani Kollin
 a3a2c4faad1b0509907fa46c,Don't Blame Us: Suburban Liberals and the Transformation of the Democratic Party,Lily Geismer
 a41995dd0e7bf86f5538d51c,The Plague,Albert Camus
@@ -123,6 +129,7 @@ c158f4ab79d7fb1b4628f319,The Two Towers,J.R.R. Tolkien
 c27e9e271c2d2080737beca6,The Color of Truth: McGeorge Bundy and William Bundy: Brothers in War,Kai Bird
 c29ec918dbc2bd33da8e676f,2666,Roberto Bolaño
 c3848533198ab3a1d895c12d,The Stranger,Albert Camus
+c442a81ad9fe181d32a68818,Revolutionary Road & Easter Parade,Richard Yates
 c6f79c722d6b9871929109b2,Paradise Lost,John Milton
 c74dd4c74bc9918065b7880d,Victoria,Knut Hamsun
 ca6ff12ada36bf0a395456e8,The Paradox of American Power: Why the World's Only Superpower Can't Go It Alone,Joseph S. Nye Jr
@@ -137,7 +144,9 @@ d9d1b576d1a44926143d47a2,Kaputt,Curzio Malaparte
 dadea8b54b1f048257fcca95,Marx's Concept of Man,Erich Fromm
 dcce2e82b2d5cd6dea55473c,The Fire Next Time,James Baldwin
 e0f10988eca058ca51dc93f2,Crime and Punishment,Fyodor Dostoevsky
+e270d036cc757cbc0d0587b8,"The Claim of Reason: Wittgenstein, Skepticism, Morality, and Tragedy",Stanley Cavell
 e33f7fb4848924c4c24af44e,Penguin Island,Anatole France
+e43dd10070f1a6b37b4067a4,James Joyce,Richard Ellmann
 e507da70783d862dea1db2e8,The Satanic Verses: A Novel,Salman Rushdie
 ea5c7df78396e49bd782e99e,From Backrooms to Boardrooms: The Rise of Institutional Investment in Timberland,Daowei Zhang
 eba03654fd9413c5655cbfbd,"Mariners, Renegades & Castaways",C. L. R. James

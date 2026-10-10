@@ -8,6 +8,7 @@ id,kind,title,creator
 092ee0a42ab842afc30ceaf5,album,Changes,Charles Bradley
 0ac58721477bd580050b99d6,book,Portnoy's Complaint,Philip Roth
 0b74feb9eb38105608968390,album,Souvlaki,Slowdive
+0c757d0731bb97db3b23ba90,book,Mating,Norman Rush
 0d756629fedd3bbf55741e93,album,Official Version,Front 242
 0e5d340603288950347a1684,album,Crystal Castles II,Crystal Castles
 0e8e8ff43834f4419d22cb4a,book,The Return of the King,J.R.R. Tolkien
@@ -37,6 +38,7 @@ id,kind,title,creator
 2d6411b9fcec4736151ab23e,book,In a Sunburned Country,Bill Bryson
 2e9ac5d36fa3edeb0bdcf7d6,album,What's Going On,Marvin Gaye
 2ee8cfe5c9c92be046f92d6d,album,Elastica,Elastica
+2ef37f5ef5d733d58aa33a90,book,Mrs. Bridge,Evan S. Connell
 2ef8e67f2ce73f995c0ab300,book,"Autumn in the Heavenly Kingdom: China, the West, and the Epic Story of the Taiping Civil War",Stephen R. Platt
 2fa20d751fb94dc55a62b41f,book,Fighting for Life,Walter J. Ong
 2fcc9926b1baed651a9065ff,book,Collected Poems,Philip Larkin
@@ -50,6 +52,7 @@ id,kind,title,creator
 39fc43841a5ad52267c3fd87,book,"Moby-Dick; or, The Whale",Herman Melville
 3a9d437632772b0e42f29fa4,album,Live From Crush Palace,Karen O
 3b28f9aba8c0d4e964f86c3f,book,The Places in Between,Rory Stewart
+3cb021afec3a7c7953564b98,book,Palimpsest: A Memoir,Gore Vidal
 3d2a7b56b913da59cd237e92,album,Bo Jackson,Boldy James & The Alchemist
 3ded1c05e85a9ae5f947e351,book,Americana: A 400-Year History of American Capitalism,Bhu Srinivasan
 3f18d649175260b7d7a7d2ed,book,The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers,Ben Horowitz
@@ -58,6 +61,7 @@ id,kind,title,creator
 4679baba64eae995bbf4ac45,book,The Brothers Karamazov,Fyodor Dostoevsky
 470c45709e745f6246da816c,album,I'm Your Man,Leonard Cohen
 472d2747d2637b00c3a9c0b6,album,Animal,Ke$ha
+48151910713aab454b225371,book,Poems,Elizabeth Bishop
 485251ad9bb546a3de65f44c,album,No Dogs Allowed,Sidney Gish
 489a9ce9fc4fd9cc48a81511,book,The Enigma of Arrival,V.S. Naipaul
 48e1506862f391446f6cdc33,book,On Writing: A Memoir of the Craft,Stephen King
@@ -125,6 +129,7 @@ id,kind,title,creator
 7a822caa044e5f00c7756582,book,Frankenstein,Mary Shelley
 7d0467819fe23a6dd0c51ac1,album,It Was Written,Nas
 7decdc1e65a2bbdb28e7679a,album,Songs in the Key of Life,Stevie Wonder
+810e807d3481c3889ce87e43,book,Nixon Agonistes: The Crisis of the Self-Made Man,Garry Wills
 83f3f0504e987ea6bf73f84f,book,We Tell Ourselves Stories in Order to Live: Collected Nonfiction,Joan Didion
 84537b9de367b939f5e04a8d,book,The Master and His Emissary,Iain McGilchrist
 86762be6e8493db205f4ce5a,book,The Art of Not Being Governed: An Anarchist History of Upland Southeast Asia,James C. Scott
@@ -160,6 +165,7 @@ id,kind,title,creator
 9f8b6f49ac6ea8319bfe4835,book,A View from the Bridge,Arthur Miller
 a0a8fd60a78ec2a59c326f02,book,The Fellowship of the Ring,J.R.R. Tolkien
 a0cbd74cd494aff9061c6294,book,The Depths of Time,Roger macbride Allen
+a0dd233701c8225200cd02ec,book,The Silent Woman: Sylvia Plath and Ted Hughes,Janet Malcolm
 a1be7cdd80dd53a69499c559,book,The Unincorporated Man,Dani Kollin
 a27b816f2e6bbf3c76c7d4c4,album,Imaginary Day,Pat Metheny Group
 a3a2c4faad1b0509907fa46c,book,Don't Blame Us: Suburban Liberals and the Transformation of the Democratic Party,Lily Geismer
@@ -190,6 +196,7 @@ c27e9e271c2d2080737beca6,book,The Color of Truth: McGeorge Bundy and William Bun
 c29ec918dbc2bd33da8e676f,book,2666,Roberto Bolaño
 c3848533198ab3a1d895c12d,book,The Stranger,Albert Camus
 c396be770b30769a9d1995df,album,Rage Against the Machine,Rage Against the Machine
+c442a81ad9fe181d32a68818,book,Revolutionary Road & Easter Parade,Richard Yates
 c6f79c722d6b9871929109b2,book,Paradise Lost,John Milton
 c74dd4c74bc9918065b7880d,book,Victoria,Knut Hamsun
 c8423eff96c6381db50b9143,album,a slice of life,deathbrain
@@ -211,7 +218,9 @@ d9d1b576d1a44926143d47a2,book,Kaputt,Curzio Malaparte
 dadea8b54b1f048257fcca95,book,Marx's Concept of Man,Erich Fromm
 dcce2e82b2d5cd6dea55473c,book,The Fire Next Time,James Baldwin
 e0f10988eca058ca51dc93f2,book,Crime and Punishment,Fyodor Dostoevsky
+e270d036cc757cbc0d0587b8,book,"The Claim of Reason: Wittgenstein, Skepticism, Morality, and Tragedy",Stanley Cavell
 e33f7fb4848924c4c24af44e,book,Penguin Island,Anatole France
+e43dd10070f1a6b37b4067a4,book,James Joyce,Richard Ellmann
 e4a4af763229c82d0b85675b,album,Dummy,Portishead
 e507da70783d862dea1db2e8,book,The Satanic Verses: A Novel,Salman Rushdie
 e554f2af23eb48e4fff9eeb0,album,Ys,Joanna Newsom

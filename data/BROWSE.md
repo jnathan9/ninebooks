@@ -1,12 +1,28 @@
 # Browse the database
 
-**27 complete lists · 148 books · 87 albums**
+**28 complete lists · 157 books · 87 albums**
 
 [Books](books.csv) · [Albums](albums.csv) · [Book–album connections](connections.csv) · [All data files](README.md)
 
 Each section below is one complete contribution. Lists linked to the same contributor share a public profile. Names are optional and self-reported.
 
 Showing every list in this snapshot. Refreshed with the hourly export.
+
+## Anonymous contributor · Nine books
+
+2026-10-10 · [Open this list](https://thestalwart.com/ninebooks/#list/78be937c-9285-466c-8922-e7698fea7791) · [This contributor’s books & albums](https://thestalwart.com/ninebooks/#reader/8f8c5c60-283a-46e6-a9fa-c78acddc3d3d)
+
+| Position | Title | Author |
+| --- | --- | --- |
+| 1 | Mrs. Bridge | Evan S. Connell |
+| 2 | James Joyce | Richard Ellmann |
+| 3 | Poems | Elizabeth Bishop |
+| 4 | The Claim of Reason: Wittgenstein, Skepticism, Morality, and Tragedy | Stanley Cavell |
+| 5 | Palimpsest: A Memoir | Gore Vidal |
+| 6 | Nixon Agonistes: The Crisis of the Self-Made Man | Garry Wills |
+| 7 | Mating | Norman Rush |
+| 8 | Revolutionary Road &amp; Easter Parade | Richard Yates |
+| 9 | The Silent Woman: Sylvia Plath and Ted Hughes | Janet Malcolm |
 
 ## Anonymous contributor · Nine albums
 
