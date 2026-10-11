@@ -18,7 +18,9 @@ id,title,author
 15cf9a8885ae4e729c780ace,Star Maker,Olaf Stapledon
 15d9496728598a0e93f8f73b,No Sense of Place,Joshua Meyrowitz
 164375d1bc8023f65c21e306,The Case for Mars: The Plan to Settle the Red Planet and Why We Must,Robert Zubrin
+16e527c3fc205a57ba00022f,Miami Blues,Charles Willeford
 19a4680ea305538dbd0849d2,Alice in Wonderland: The Original 1865 Unabridged and Complete Edition,Lewis Carroll
+19e0523f22441d67a10471b8,Cugel: The Skybreak Spatterlight,Jack Vance
 1ca353fc8422815cf446fbd2,"Swann's Way: In Search of Lost Time, Vol. 1",Marcel Proust
 1dddf6aa9bae89ff94fd7a5a,"The Middle Ground: Indians, Empires, and Republics in the Great Lakes Region, 1650–1815",Richard White
 1e91eb87f209873dccfb4a00,Dhalgren,Samuel R. Delany
@@ -59,6 +61,7 @@ id,title,author
 5af1f0ac901da929c7199c8d,Weirdos from Another Planet!,Bill Watterson
 5be316a05e7f11278254d52b,Vildanden,Henrik Ibsen
 5da0bfa5a3c70da8b19c5a60,Amusing Ourselves to Death: Public Discourse in the Age of Show Business,Neil Postman
+6039864d1f7bf62e6e5b2e75,The Heart of the Matter,Graham Greene
 61258146fdaa537cd7191150,Recursion,Tony Ballantyne
 61e760ad8bb78008eed971a1,The Source,James A. Michener
 62b211cf1dcba73d9c656d40,"Castles of Steel: Britain, Germany, and the Winning of the Great War at Sea",Robert K. Massie
@@ -77,6 +80,7 @@ id,title,author
 6f94ba6ea91e236e3ceafde9,A History of Western Philosophy,Bertrand Russell
 70ef8d360daafb33e92208bc,The Devil in Winter,Lisa Kleypas
 71d5eb3011c2176712896380,Catch-22,Joseph Heller
+74914ab42faf3d472eb11797,Hard to Be a God,Arkady Strugatsky and Boris Strugatsky
 751a3b0396085f33484f05a4,A Perfect Spy: A Novel,John le Carré
 770afcd127ebd6ab97ff4909,Angle of Repose,Wallace Stegner
 7743d773f9d13cfbc18b191e,"A Line in the Sand: Britain, France and the Struggle that Shaped the Middle East",James Barr
@@ -94,6 +98,7 @@ id,title,author
 8cfdd431c9151ad1c0d915dc,Piranesi,Susanna Clarke
 8feb232fe68b4c90c77af08d,Living the Good Life: How to Live Sanely and Simply in a Troubled World,Helen and Scott Nearing
 902f2a0c47b5880898a003ce,The Decline of American Power: The U.S. in a Chaotic World,Immanuel Wallerstein
+90923f8207dcbf78e524682a,Superforecasting: The Art and Science of Prediction,Philip E. Tetlock
 90ac84295098239d808b35de,The Crying of Lot 49,Thomas Pynchon
 91094370b6e747e2f3185f76,"The Black Wave: Saudi Arabia, Iran, and the Forty-Year Rivalry That Unraveled Culture, Religion, and Collective Memory in the Middle East",Kim Ghattas
 93c2451bb9c351cd8c1d7b7f,Dominion: How the Christian Revolution Remade the World,Tom Holland
@@ -141,14 +146,17 @@ c8d21733cb28f538e917efc7,"A Storm of Swords: A Song of Ice and Fire, Book 3",Geo
 ca6ff12ada36bf0a395456e8,The Paradox of American Power: Why the World's Only Superpower Can't Go It Alone,Joseph S. Nye Jr
 cac65786080fbe563bb45c4a,The Remains of the Day,Kazuo Ishiguro
 caf5de9fd3ab909debdd6687,Q: A Deadly Historical Thriller – Papal Spy Hunts Heretic Through...,Luther Blisset
+cde1bc56ed9a8f3693449001,Money,Martin Amis
 ce32e8103d1789ca77ebb376,Trouble on Triton,Samuel R. Delany
 d442581e0501a526f450072b,Heartburn,Nora Ephron
 d5ffe9b81a86b6c31b96d117,Ficciones,Jorge Luis Borges
 d6758894b355bd25fa3920aa,To Rule All Under Heaven: A History of Classical China From Confucius to the First Emperor,Andrew Seth Meyer
+d77f07ab08e00c8074592cae,Against the Gods: The Remarkable Story of Risk,Peter L. Bernstein
 d7ff74cb8b229d0378a265fc,Exhalation: Stories,Ted Chiang
 d9d1b576d1a44926143d47a2,Kaputt,Curzio Malaparte
 dadea8b54b1f048257fcca95,Marx's Concept of Man,Erich Fromm
 dcce2e82b2d5cd6dea55473c,The Fire Next Time,James Baldwin
+dd9ddb54652cb0c3c482dada,A Supposedly Fun Thing I'll Never Do Again: Essays and Arguments,David Foster Wallace
 e0f10988eca058ca51dc93f2,Crime and Punishment,Fyodor Dostoevsky
 e270d036cc757cbc0d0587b8,"The Claim of Reason: Wittgenstein, Skepticism, Morality, and Tragedy",Stanley Cavell
 e33f7fb4848924c4c24af44e,Penguin Island,Anatole France
@@ -165,3 +173,4 @@ f41257d940969103473b85c4,Going Postal: A Novel of Discworld,Terry Pratchett
 f81320a66f37e73ff279c938,Orality and Literacy,Walter J. Ong
 f9b37995f4d379c36c26f065,Those Who Leave and Those Who Stay: A Novel,Elena Ferrante
 fa28981601ac69b2c2b31f8d,The Moral Animal: Why We Are the Way We Are: The New Science of Evolutionary Psychology,Robert Wright
+fc7ac1e19131c6b03f208ba2,The Long Good-Bye,Raymond Chandler

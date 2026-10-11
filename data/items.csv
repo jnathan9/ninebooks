@@ -29,8 +29,10 @@ id,kind,title,creator
 15cf9a8885ae4e729c780ace,book,Star Maker,Olaf Stapledon
 15d9496728598a0e93f8f73b,book,No Sense of Place,Joshua Meyrowitz
 164375d1bc8023f65c21e306,book,The Case for Mars: The Plan to Settle the Red Planet and Why We Must,Robert Zubrin
+16e527c3fc205a57ba00022f,book,Miami Blues,Charles Willeford
 17f96048ff28777074110ab2,album,Best of the Vanguard Years,John Fahey
 19a4680ea305538dbd0849d2,book,Alice in Wonderland: The Original 1865 Unabridged and Complete Edition,Lewis Carroll
+19e0523f22441d67a10471b8,book,Cugel: The Skybreak Spatterlight,Jack Vance
 1ca353fc8422815cf446fbd2,book,"Swann's Way: In Search of Lost Time, Vol. 1",Marcel Proust
 1dddf6aa9bae89ff94fd7a5a,book,"The Middle Ground: Indians, Empires, and Republics in the Great Lakes Region, 1650–1815",Richard White
 1e91eb87f209873dccfb4a00,book,Dhalgren,Samuel R. Delany
@@ -94,6 +96,7 @@ id,kind,title,creator
 5be316a05e7f11278254d52b,book,Vildanden,Henrik Ibsen
 5da0bfa5a3c70da8b19c5a60,book,Amusing Ourselves to Death: Public Discourse in the Age of Show Business,Neil Postman
 5e739d3a4303cf30887fe5d1,album,Clube da Esquina,Milton Nascimento & Lô Borges
+6039864d1f7bf62e6e5b2e75,book,The Heart of the Matter,Graham Greene
 61258146fdaa537cd7191150,book,Recursion,Tony Ballantyne
 619f5b6eaacd08b1eeea872e,album,The Rise and Fall of a Midwest Princess,Chappell Roan
 61e760ad8bb78008eed971a1,book,The Source,James A. Michener
@@ -125,6 +128,7 @@ id,kind,title,creator
 71fd0ae6a5290fb25a81fc7a,album,Sleep,Max Richter
 724d8b9147d8569c58aef4a4,album,Preacher's Daughter,Ethel Cain
 72bd4f7c36679be137255e9c,album,Purple Mountains,Purple Mountains
+74914ab42faf3d472eb11797,book,Hard to Be a God,Arkady Strugatsky and Boris Strugatsky
 751a3b0396085f33484f05a4,book,A Perfect Spy: A Novel,John le Carré
 770afcd127ebd6ab97ff4909,book,Angle of Repose,Wallace Stegner
 773da0a45d33e024f7d59cb1,album,New Threats From the Soul,Ryan Davis & The Roadhouse Band
@@ -150,6 +154,7 @@ id,kind,title,creator
 8f55ffe5d849b19898caf4ca,album,Relationship of Command,At the Drive-In
 8feb232fe68b4c90c77af08d,book,Living the Good Life: How to Live Sanely and Simply in a Troubled World,Helen and Scott Nearing
 902f2a0c47b5880898a003ce,book,The Decline of American Power: The U.S. in a Chaotic World,Immanuel Wallerstein
+90923f8207dcbf78e524682a,book,Superforecasting: The Art and Science of Prediction,Philip E. Tetlock
 90ac84295098239d808b35de,book,The Crying of Lot 49,Thomas Pynchon
 91094370b6e747e2f3185f76,book,"The Black Wave: Saudi Arabia, Iran, and the Forty-Year Rivalry That Unraveled Culture, Religion, and Collective Memory in the Middle East",Kim Ghattas
 91c369df9210551271b5fea9,album,In the Shadow of Clinch Mountain,The Carter Family
@@ -218,6 +223,7 @@ caa0fb4da3d5e645d2c6752d,album,The Tortured Poets Department,Taylor Swift
 cac65786080fbe563bb45c4a,book,The Remains of the Day,Kazuo Ishiguro
 caf5de9fd3ab909debdd6687,book,Q: A Deadly Historical Thriller – Papal Spy Hunts Heretic Through...,Luther Blisset
 ccc6016682e78425260baffe,album,The Wall,Pink Floyd
+cde1bc56ed9a8f3693449001,book,Money,Martin Amis
 ce32e8103d1789ca77ebb376,book,Trouble on Triton,Samuel R. Delany
 d42a9abe1329fe9bed1703d3,album,Siamese Dream,Smashing Pumpkins
 d442581e0501a526f450072b,book,Heartburn,Nora Ephron
@@ -225,11 +231,13 @@ d45ce63ee206147499099253,album,LUX,ROSALÍA
 d5e36e80f6ae956458b0ce2e,album,HNDRXX,Future
 d5ffe9b81a86b6c31b96d117,book,Ficciones,Jorge Luis Borges
 d6758894b355bd25fa3920aa,book,To Rule All Under Heaven: A History of Classical China From Confucius to the First Emperor,Andrew Seth Meyer
+d77f07ab08e00c8074592cae,book,Against the Gods: The Remarkable Story of Risk,Peter L. Bernstein
 d7e2b5db23788ff83e85f9d2,album,Talking Book,Stevie Wonder
 d7ff74cb8b229d0378a265fc,book,Exhalation: Stories,Ted Chiang
 d9d1b576d1a44926143d47a2,book,Kaputt,Curzio Malaparte
 dadea8b54b1f048257fcca95,book,Marx's Concept of Man,Erich Fromm
 dcce2e82b2d5cd6dea55473c,book,The Fire Next Time,James Baldwin
+dd9ddb54652cb0c3c482dada,book,A Supposedly Fun Thing I'll Never Do Again: Essays and Arguments,David Foster Wallace
 e0f10988eca058ca51dc93f2,book,Crime and Punishment,Fyodor Dostoevsky
 e270d036cc757cbc0d0587b8,book,"The Claim of Reason: Wittgenstein, Skepticism, Morality, and Tragedy",Stanley Cavell
 e33f7fb4848924c4c24af44e,book,Penguin Island,Anatole France
@@ -258,5 +266,6 @@ f938790f3383a24e763cee83,album,We Shall All Be Healed,The Mountain Goats
 f9b37995f4d379c36c26f065,book,Those Who Leave and Those Who Stay: A Novel,Elena Ferrante
 fa28981601ac69b2c2b31f8d,book,The Moral Animal: Why We Are the Way We Are: The New Science of Evolutionary Psychology,Robert Wright
 fc2073e2e0638ba372e761d2,album,CAMP,Childish Gambino
+fc7ac1e19131c6b03f208ba2,book,The Long Good-Bye,Raymond Chandler
 feeedba3b4f2bc430937d35e,album,Crystal Castles,Crystal Castles
 ff7909201fa3c9e2322b9d59,album,Anthology 1935-1973,Bob Wills and His Texas Playboys

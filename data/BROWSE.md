@@ -1,12 +1,28 @@
 # Browse the database
 
-**30 complete lists · 166 books · 95 albums**
+**31 complete lists · 175 books · 95 albums**
 
 [Books](books.csv) · [Albums](albums.csv) · [Book–album connections](connections.csv) · [All data files](README.md)
 
 Each section below is one complete contribution. Lists linked to the same contributor share a public profile. Names are optional and self-reported.
 
 Showing every list in this snapshot. Refreshed with the hourly export.
+
+## Bill K · Nine books
+
+2026-10-11 · [Open this list](https://thestalwart.com/ninebooks/#list/45d4951e-7116-4199-8da7-3648ddb710be) · [This contributor’s books & albums](https://thestalwart.com/ninebooks/#reader/4c0e4c52-0f35-4c30-b18b-31ae30e3f535)
+
+| Position | Title | Author |
+| --- | --- | --- |
+| 1 | Miami Blues | Charles Willeford |
+| 2 | The Long Good-Bye | Raymond Chandler |
+| 3 | The Heart of the Matter | Graham Greene |
+| 4 | Cugel: The Skybreak Spatterlight | Jack Vance |
+| 5 | A Supposedly Fun Thing I'll Never Do Again: Essays and Arguments | David Foster Wallace |
+| 6 | Money | Martin Amis |
+| 7 | Against the Gods: The Remarkable Story of Risk | Peter L. Bernstein |
+| 8 | Superforecasting: The Art and Science of Prediction | Philip E. Tetlock |
+| 9 | Hard to Be a God | Arkady Strugatsky and Boris Strugatsky |
 
 ## Anonymous contributor · Nine albums
 
